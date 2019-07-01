@@ -19,7 +19,7 @@ reverse_each_word_array.join
 
 end
 
-    print reverse_each_word("hello,there and how are you? ")
+    print reverse_each_word("hello there, and how are you? ")
 
 def reverse_each_word (reverse_each_word)
     temp_array = []
