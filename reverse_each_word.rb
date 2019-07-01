@@ -4,14 +4,14 @@ def reverse_each_word (reverse_each_word)
 
     i = reverse_each_word.length
 
-temp_array.push(reverse_each_word.split(""))
+    temp_array.push(reverse_each_word.split(""))
 
-temp_array.each do |item|
+    temp_array.each do |item|
 
-    until i < 0
+ until i < 0
         reverse_each_word_array.push(item[i])
         i -= 1
-    end
+ end
 
 end
 
@@ -19,7 +19,7 @@ reverse_each_word_array.join
 
 end
 
-print reverse_each_word("reverse each word ")
+    print reverse_each_word("reverse each word ")
 
 def reverse_each_word (reverse_each_word)
     temp_array = []
@@ -27,41 +27,41 @@ def reverse_each_word (reverse_each_word)
 
     i = reverse_each_word.length
 
-temp_array.push(reverse_each_word.split(""))
+    temp_array.push(reverse_each_word.split(""))
 
-temp_array.each do |item|
+   temp_array.each do |item|
 
-    until i < 0
+ until i < 0
         reverse_each_word_array.push(item[i])
         i -= 1
-    end
+ end
 
 end
 
-reverse_each_word_array.join
+      reverse_each_word_array.join
 
 end
 
-print reverse_each_word("hi ,how are you today ")
-def reverse_each_word (reverse_each_word)
-    temp_array = []
-    reverse_each_word_array = []
+  print reverse_each_word("hi ,how are you today ")
+def   reverse_each_word (reverse_each_word)
+      temp_array = []
+      reverse_each_word_array = []
 
-    i = reverse_each_word.length
+      i = reverse_each_word.length
 
-temp_array.push(reverse_each_word.split(""))
+      temp_array.push(reverse_each_word.split(""))
 
-temp_array.collect do |item|
+      temp_array.collect do |item|
 
-    until i < 0
+  until i < 0
         reverse_each_word_array.push(item[i])
         i -= 1
-    end
+ end
 
 end
 
-reverse_each_word_array.join
+        reverse_each_word_array.join
 
 end
 
-print reverse_each_word("reverse each word ")
+     print reverse_each_word("reverse each word ")
