@@ -12,7 +12,7 @@ temp_array.each do |item|
         how_are_you_array.push(item[i])
         i -= 1
     end
-    #print reverse_array.inspect
+    
 end
 
 how_are_you_array.join
