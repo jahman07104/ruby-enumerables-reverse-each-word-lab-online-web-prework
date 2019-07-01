@@ -42,7 +42,7 @@ end
 
 end
 
-  print reverse_each_word("hi ,how are you today ")
+  print reverse_each_word("Hi again, just making sure it's reversed!" )
 def   reverse_each_word (reverse_each_word)
       temp_array = []
       reverse_each_word_array = []
