@@ -1,5 +1,3 @@
 def reverse_each_word(reverse each word)
-  ["reverse each word"].each do
-
+  ["reverse each word"].each do {|b|"b.reverse"]
 end
-reverse_each_word 
