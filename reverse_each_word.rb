@@ -1,4 +1,4 @@
-def how_are_you (how_are_you)
+def reverse_each_word (how_are_you)
     temp_array = []
     how_are_you_array = []
 
